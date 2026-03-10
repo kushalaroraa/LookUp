@@ -25,8 +25,8 @@ export default function App() {
       <div
         style={{
           minHeight: "100vh",
-          background:
-            "linear-gradient(135deg, #dce4f5 0%, #e8ecf8 40%, #d8e0f2 100%)",
+          /* keep container transparent so the page background is uniform */
+          background: "transparent",
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
